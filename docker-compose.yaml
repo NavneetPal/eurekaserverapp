@@ -1,6 +1,5 @@
 services:
   eurekaserver:
-    build:
-      context: .
+    image: 'navneetpal/eureka-jenkin-server'
     ports:
       - '8761:8761'
